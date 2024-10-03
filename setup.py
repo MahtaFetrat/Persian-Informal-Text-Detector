@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="informal_detector",
-    version="0.1.1",
+    version="0.1.2",
     description="A Python package to check if a text is informal Persian.",
     long_description=open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
