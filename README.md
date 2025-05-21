@@ -23,7 +23,7 @@ result2 = is_informal("نباید به خانه بروم", threshold=1)
 print(result2)  # Output: False
 ```
 
-## The threshold Argument
+## The `threshold` Argument
 The `threshold` keyword argument is crucial as it indicates how strict the detector should be. It determines the number of informal Persian indicators, such as informal words and verbs, required to classify a text as informal.
 
 A lower threshold is suitable for smaller text files, while a higher threshold is more appropriate for larger files where some formal sentences might exist but the text should still be marked as informal if it contain a significant number of informal indicators. A threshold of 1 means that a text is considered informal if it contains at least one informal word or verb.
